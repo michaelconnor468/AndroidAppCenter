@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">SlidingTiles</string>
+    <string name="text_newaccount">Don\'t have an account?</string>
+    <string name="text_hint_email">Username</string>
+    <string name="text_hint_password">Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_newgame">New Game</string>
+    <string name="text_load_game">Play</string>
+    <string name="text_new_player">New Player</string>
+    <string name="text_sign_in">Sign In</string>
+    <string name="text_sign_out">Sign Out</string>
+    <string name="text_scores">Scores</string>
+    <string name="text_haskell">Should\'ve been written in Haskell</string>
+    <string name="text_new_user_intro">
+        Clippy: It looks like you\'re trying to awaken from cryosleep. Would you like my help?
+    </string>
+    <string name="text_new_user_intro_pushed">
+        Clippy: Excellent! It says here your name is
+    </string>
+    <string name="text_new_user_forgot_name">
+        Program received signal SIGSEGV: Segmentation Fault
+    </string>
+    <string name="text_new_user_remind_name">
+        Clippy: Ah, I seem to have forgotten it. Remind me\?
+    </string>
+    <string name="text_new_user_greets">So...</string>
+    <string name="text_new_user_password_end">
+        Clippy: I pronounce that right? Anyways, our Macrosoft™ Active Starship Administrator™ set a policy requiring all users to have a password.
+        That said, they didn\'t set a minimum length, so you can make like Stallman and set it to newline (i.e. nothing)
+    </string>
+    <string name="text_password_confirmed">
+        Cool password! So, tell me when you\'re ready, and I\'ll go ahead and register you. Then I can give you a brief introduction, if you\'d like.
+    </string>
+    <string name="text_invalid_username">Invalid</string>
+    <string name="text_choose_username">[ Select ]</string>
+    <string name="text_taken_username">Taken</string>
+    <string name="clippy">Clippy</string>
+    <string name="text_yes_button">[ Yes ]</string>
+    <string name="text_hint_gamename">Game</string>
+    <string name="text_introduction">[ Start ]</string>
+    <string name="text_skip_button">[ Skip ]</string>
+    <string name="text_go_to_sliding_tiles">[ Reactor View ]</string>
+    <string name="text_go_to_minesweeper">[ Reactor Model ]</string>
+    <string name="text_go_to_reactorcontrol">[ Reactor Control ]</string>
+    <string name="text_go_to_choose_game">[ Let\'s Go ]</string>
+
+    <!--Error Messages-->
+    <string name="over_flag_limit_error">Mine flag limit reached.  Remove at least one mine flag</string>
+    <string name="uncover_tile_error">Must remove mine flag</string>
+    <string name="board_initialization_error">There was a problem setting up the game</string>
+    <string name="finish_button">finish</string>
+    <string name="reset_button">reset</string>
+    <string name="game_reset_error">There was a problem resetting the game</string>
+    <string name="win_message">You won!</string>
+    <string name="loss_message">You lost!</string>
+    <string name="text_not_logged_in">Not logged in.</string>
+    <string name="text_signed_in_as">Signed in as</string>
+    <string name="text_game_over">Game Over!</string>
+    <string name="text_you_scored">You Scored:</string>
+    <string name="text_you_earned">You Earned:</string>
+    <string name="text_energycoins">EnergyCoins</string>
+    <string name="text_back_to_title">Back to Title</string>
+    <string name="text_choose_image">Tap to choose new image</string>
+    <string name="text_intro">
+        It seems like you\'ve awakened a bit early… I wonder why. Ah, now I remember: the ship\'s reactors are failing. Fun!
+        Unfortunately, for security reasons, AIs are not allowed to control the reactors directly. The controls are physical and cannot be connected to through the ShipNet™.
+        We can, however project holograms to drastically simplify the controls. This is where you come in.
+        We have 3 reactor control panels we need you to manage.
+    </string>
+    <string name="text_sliding">
+        One is the "Reactor View", a set of "sliding tiles" that need to be arranged in sorted order. If you fling your ControlScreen™ left, you can undo, and if you fling it right, you can redo.
+    </string>
+    <string name="text_mines">
+        We also have the "Reactor Model", a collection of buttons to move the reactor\'s control rods. We kind of… forgot what each button did, but you can undo up to three erroneous rod insertions by pushing the
+        circular button at the top to inject coolant.
+    </string>
+    <string name="text_control">
+        Finally, we have the reactor controller, where you can try your hand at controlling the reactor\'s throttle. Hit red hot spots and you\'ll damage a core, hit blue squares and you\'ll increase efficiency
+    </string>
+    <string name="text_undo_button">[ Undo (%1$d) ]</string>
+    <string name="text_redo_button">[ Redo (%1$d) ]</string>
+    <string name="text_macrosoft_subtitle">Reactor Control Interface</string>
+    <string name="text_play_game">[ Play ]</string>
+</resources>
